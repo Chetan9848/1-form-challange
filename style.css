@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin: 10px 30px 10px 30px;
+}
+
+.container {
+    background-color: rgb(243, 243, 243);
+    border-top: 1px solid rgb(243, 243, 243);
+    border-radius: 5px;
+
+}
+
+.head {
+    background-color: rgb(123, 201, 6);
+    color: white;
+    margin: 0;
+    padding: 10px 20px 20px 30px;
+    border-top: 1px solid rgb(123, 201, 6);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.main {
+    margin-top: 12px;
+    padding: 0px 25px 15px 25px;
+}
+
+h1 {
+    height: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin: 3px 0 3px 0;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+textarea {
+    resize: none;
+}
+
+fieldset {
+    margin: 3px 0 3px 0;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(123, 201, 6);
+    font-size: 15px;
+    margin: 3px 0 3px 0;
+    height: 30px;
+    width: 70px;
+    border: 2px solid rgb(123, 201, 6);
+    border-radius: 5px;
+}
+button:active{
+   background-color: green;
+}
